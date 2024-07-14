@@ -1,0 +1,93 @@
+[
+    {
+        "id": 10, 
+        "name": "Day Tasking: React and Redux Task Manager",
+        "description": "Day Tasking is a project I created as part of the Codecademy curriculum to practice my skills in React and Redux. This application allows users to manage their daily tasks with an appealing layout. It integrates with third-party APIs to provide users with beautiful pictures, inspirational quotes, and the current weather, enhancing the overall user experience.",
+        "technologies": ["React", "Redux", "JavaScript"],
+        "live-link": "https://gymbo.onrender.com",
+        "github-link": "https://github.com/luisclaudioc/gym-friend",
+        "img": ""
+    },
+    {
+        "id": 9, 
+        "name": "Gymbo: Full-Stack Weight Tracking Application",
+        "description": "Gymbo is my first full-stack project, created to solve the problem of tracking weight progress at the gym. Built entirely from scratch using Node.js, this project encompasses both front-end and back-end development. It includes features such as database integration, user authentication, and API management.",
+        "technologies": ["Passport", "Helmet", "MongoDB", "JavaScript", "HTML", "CSS"],
+        "live-link": "https://gymbo.onrender.com",
+        "github-link": "https://github.com/luisclaudioc/gym-friend",
+        "img": ""
+    },
+    {
+        "id": 8, 
+        "name": "Turbo Mode: Multiplayer Game",
+        "description": "I developed a multiplayer game where players choose from three Brazilian pop singers and compete to collect the most collectibles within one minute. This project introduced me to using HTML Canvas for game development and implementing real-time multiplayer functionality with Socket.io. It was a fun and engaging project that enhanced my skills in both front-end game development and server-side communication.",
+        "technologies": ["HTML Canvas", "Socket.io", "JavaScript"],
+        "live-link": "https://turbomode.onrender.com",
+        "github-link": "https://github.com/luisclaudioc/multiplayer-game-modo-turbo",
+        "img": ""
+    },
+    {
+        "id": 7, 
+        "name": "Personal Portfolio Website",
+        "description": "After gaining initial experience, I embarked on creating my first personal portfolio website. Using plain HTML, CSS, and JavaScript, this project marked a significant milestone as I designed and developed something entirely from scratch. It allowed me to unleash my creativity, explore design concepts, and build something that reflects my interests and skills.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live-link": "https://luisclaudioc.github.io/luiscostantin-portfolio/",
+        "github-link": "https://github.com/luisclaudioc/luiscostantin-portfolio",
+        "img": ""
+    },
+    {
+        "id": 6, 
+        "name": "Google Sheets Automation for Delícias de Minas Lda",
+        "description": "While working for Delícias de Minas Lda, I developed a Python automation script to streamline the process of filling Google Sheets with daily orders. This project significantly reduced manual effort, minimized errors, and improved efficiency by automating the data entry process.",
+        "technologies": ["Python"],
+        "live-link": "",
+        "github-link": "https://github.com/luisclaudioc/delicias-automated-order",
+        "img": ""
+    },
+    {
+        "id": 5, 
+        "name": "Anonymous Message Board",
+        "description": "Developed as part of the freeCodeCamp curriculum, this project introduced me to the fundamentals of information security and the Helmet middleware in Node.js. It provided valuable experience in securing web applications and handling database operations and API requests.",
+        "technologies": ["Helmet", "JavaScript", "Node.js", "MongoDB"],
+        "live-link": "",
+        "github-link": "https://github.com/luisclaudioc/freecodecamp-anonymous-message-board",
+        "img": ""
+    },
+    {
+        "id": 4, 
+        "name": "Budget App",
+        "description": "As part of the freeCodeCamp curriculum, this project marked my first experience with Python. I created a budget app that allows users to set budgets for different categories, add expenses, and view a balance graph. This project helped me understand the basics of Python and apply it to a practical application.",
+        "technologies": ["Python"],
+        "live-link": "https://replit.com/@luisclaudioc/boilerplate-budget-app",
+        "github-link": "",
+        "img": ""
+    },
+    {
+        "id": 3, 
+        "name": "Exercise Tracker",
+        "description": "As part of the freeCodeCamp curriculum, this project introduced me to technologies such as Express, CORS, Mongoose, and MongoDB. I learned how to handle GET, POST, PUT, and DELETE requests to interact with a database, allowing me to save and edit data. This project provided my first experience with a full-stack application, giving me valuable insight into how back-end development and APIs work.",
+        "technologies": ["JavaScript", "Node.js", "Express", "Mongoose", "MongoDB"],
+        "live-link": "https://replit.com/@luisclaudioc/boilerplate-project-exercisetracker",
+        "github-link": "",
+        "img": ""
+    },
+    {
+        "id": 2, 
+        "name": "Cloropleth Map",
+        "description": "This project was created as part of the freeCodeCamp curriculum. It involved displaying a large amount of data on a Choropleth Map using D3.js. This project helped me practice making data visually appealing and understandable, which is crucial in both software and web development. By working on this project, I gained important skills and experience with a useful tool: D3.js.",
+        "technologies": ["D3.js", "JavaScript", "HTML", "CSS"],
+        "live-link": "https://codepen.io/Luis-Costantin/full/rNoXWPK",
+        "github-link": "",
+        "img": ""
+    },
+    {
+        "id": 1,
+        "name": "Calculator",
+        "description": "One of my first projects where I jumped into HTML, CSS, and JavaScript. Building this calculator taught me how to create responsive web elements, develop efficient functions to validate user input, and display results in a clear and visually appealing manner. This project enhanced my understanding of front-end development and provided a solid foundation for handling user interactions and dynamic updates in a web application.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live-link": "https://codepen.io/Luis-Costantin/full/ExGEmYJ",
+        "github-link": "",
+        "img": ""
+    }
+]
+  

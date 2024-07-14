@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
   background-color: #f5f5f5;
 }
 
@@ -13,6 +10,15 @@ h1 {
   font-size: 40px;
   margin-bottom: 20px;
   text-align: left;
+}
+
+h2 {
+  color: #8acd01;
+  margin: 10px 0px;
+}
+
+h4 {
+ margin: 5px;
 }
 
 .App {
@@ -44,13 +50,13 @@ h1 {
   -webkit-text-stroke-color: #8acd01;
 }
 
-.About, .Skills, .Projects {
+.About, .Skills {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: 5px 40px;
+  margin: 5px -1px;
   border: solid 0.5px #1a1a1a;
-  padding: 20px;
+  padding: 30px 80px;
 }
 
 .About > div {
@@ -59,7 +65,7 @@ h1 {
 
 .About > img {
   border: solid 4px #8acd01;
-  max-width: 430px;
+  max-width: 420px;
 }
 
 .icons > * {
@@ -67,24 +73,20 @@ h1 {
   color: #8acd01;
 }
 
-.Contact {
+.Contact, .Projects {
   display: flex;
   flex-direction: column;
-  margin: 5px 40px;
+  margin: 5px -1px;
   border: solid 0.5px #1a1a1a;
-  padding: 20px 120px;
+  padding: 30px 80px;
 }
 
-.contact-one {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-.contact-info p {
-  text-align: center;
+.contact-data {
+  text-align: left;
   font-style: italic;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
 }
 
 .link {
@@ -95,9 +97,11 @@ h1 {
   color:#1a1a1a;
 }
 
+
 .contact-form > form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .contact-form > form > input, textarea {
@@ -110,9 +114,27 @@ h1 {
   resize: vertical;
 }
 
-.submit-btn:hover {
+.btn {
+  margin: 3px;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  border: solid 0.5px #1a1a1a;
+  border-radius: 5px;
+  color: #1a1a1a;
+}
+
+.btn:hover {
   background-color: #8acd01;
   cursor: pointer;
 }
 
+.Project {
+  margin: 0px 50px 50px 50px;
+}
 
+
+
+.project-info {
+  margin-left: 50px;
+}

@@ -20,7 +20,7 @@ export function ContactForm() {
                 <input name='name' type='text' value={name} onChange={(e) => setName(e.target.value)} placeholder='your name' />
                 <input name='email' type='email' value={email} onChange={(e) => setEmail(e.target.value)}  placeholder='your email' />
                 <textarea name='message' value={message} onChange={(e) => setMessage(e.target.value)} placeholder='your message' />
-                <input type='submit' value='Send' className='submit-btn'/>
+                <button type='submit' className='btn'>Send</button>
             </form>
         </div>
     )
