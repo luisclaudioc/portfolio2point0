@@ -44,7 +44,7 @@ h1 {
   -webkit-text-stroke-color: #8acd01;
 }
 
-.About, .Skills, .Contact, .Projects {
+.About, .Skills, .Projects {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -58,13 +58,28 @@ h1 {
 }
 
 .About > img {
-  border: solid 5px #8acd01;
+  border: solid 4px #8acd01;
   max-width: 430px;
 }
 
 .icons > * {
   margin: 7px;
   color: #8acd01;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 40px;
+  border: solid 0.5px #1a1a1a;
+  padding: 20px 120px;
+}
+
+.contact-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 .contact-info p {
@@ -79,3 +94,25 @@ h1 {
 .link:hover {
   color:#1a1a1a;
 }
+
+.contact-form > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form > form > input, textarea {
+  margin: 3px;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  border: solid 0.5px #1a1a1a;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.submit-btn:hover {
+  background-color: #8acd01;
+  cursor: pointer;
+}
+
+
