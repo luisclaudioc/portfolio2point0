@@ -8,22 +8,22 @@ import Contact from './components/Contact/Contact';
 
 function App() {
 
-  const [activeTitle, setActiveTitle] = useState('');
+  const [activeComponent, setActiveComponent] = useState('');
 
-  const handleTitleClick = (title) => {
-    setActiveTitle(prev => prev === title ? '' : title);
+  const handleComponentClick = (title) => {
+    setActiveComponent(prev => prev === title ? '' : title);
   };
 
   return (
     <div className="App">
-      <Title title="About" text="i'm luis costantin" onClick={() => handleTitleClick('About')} />
-      <About isActive={activeTitle} />
-      <Title title="Projects" text="junior developer" onClick={() => handleTitleClick('Projects')} />
-      <Projects isActive={activeTitle} />
-      <Title title="Skills" text="mastering all skills" onClick={() => handleTitleClick('Skills')} />
-      <Skills isActive={activeTitle} />
-      <Title title="Contact" text="to speak with you" onClick={() => handleTitleClick('Contact')}/>
-      <Contact isActive={activeTitle} />
+      <Title title="About" text="i'm luis costantin" onClick={() => handleComponentClick('About')} />
+      <About isActive={activeComponent} />
+      <Title title="Projects" text="junior developer" onClick={() => handleComponentClick('Projects')} />
+      <Projects isActive={activeComponent} />
+      <Title title="Skills" text="in constant learning" onClick={() => handleComponentClick('Skills')} />
+      <Skills isActive={activeComponent} />
+      <Title title="Contact" text="available to connect" onClick={() => handleComponentClick('Contact')}/>
+      <Contact isActive={activeComponent} />
     </div>
   );
 }

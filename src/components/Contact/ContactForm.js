@@ -16,7 +16,7 @@ export function ContactForm() {
     return (
         <div className='contact-form'>
             <h1>contact_me_directly:</h1>
-            <form onSubmit={handleSubmit}>
+            <form action='https://getform.io/f/axojyonb' method='POST' onSubmit={handleSubmit}>
                 <input name='name' type='text' value={name} onChange={(e) => setName(e.target.value)} placeholder='your name' />
                 <input name='email' type='email' value={email} onChange={(e) => setEmail(e.target.value)}  placeholder='your email' />
                 <textarea name='message' value={message} onChange={(e) => setMessage(e.target.value)} placeholder='your message' />
