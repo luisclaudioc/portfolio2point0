@@ -7,7 +7,7 @@ function Projects({ isActive }) {
     const [ visibleProjectsCount, setVisibleProjectsCount ] = useState(2);
 
     useEffect(() => {
-        if (isActive !== "Projects") {
+        if (!isActive) {
             setVisibleProjectsCount(2);
         }
     }, [isActive])
@@ -16,7 +16,7 @@ function Projects({ isActive }) {
         setVisibleProjectsCount(prevCount => Math.min(prevCount + 2, sortedProjects.length));
     }
 
-    if (isActive !== "Projects") {
+    if (!isActive) {
         return null
     }
 

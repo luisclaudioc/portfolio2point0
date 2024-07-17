@@ -5,7 +5,7 @@ import { faJs, faPython, faHtml5, faCss3Alt, faReact, faNodeJs } from '@fortawes
 
 function Skills({ isActive }) {
 
-    if (isActive !== "Skills") {
+    if (!isActive) {
         return null
     }
 

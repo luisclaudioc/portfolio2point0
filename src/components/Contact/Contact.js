@@ -3,7 +3,7 @@ import { ContactForm } from './ContactForm'
 
 function Contact({ isActive }) {
 
-    if (isActive !== "Contact") {
+    if (!isActive) {
         return null
     }
     
