@@ -135,6 +135,7 @@ textarea {
   border: solid 0.5px #1a1a1a;
   border-radius: 5px;
   background-color:  #dcdcdc;
+  color: #1a1a1a;
 }
 
 .btn > a {
@@ -181,6 +182,7 @@ textarea {
 
   h1 {
     font-size: 1.750em;
+    text-align: center;
   }
 
   .About, .Project, .Skills {
@@ -192,8 +194,12 @@ textarea {
     margin: 0;
   }
 
+  .title {
+    margin: 5px;
+  }
+
   .About, .Projects, .Skills, .Contact {
-    padding: 5px;
+    padding: 15px;
   }
 }
 /*
