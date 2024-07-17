@@ -8,7 +8,7 @@ function About({ isActive }) {
 
     return (
     <div className='About'>
-        <div style={{margin: "20px"}}>
+        <div>
             <h1>more_about_me:</h1>
             <p>Hey there, I am a mechanical engineer, originally from Brazil, but currently based in Portugal. After years dedicated to a successful career managing industrial production, where my analytical and problem-solving skills were constantly tested, I found great passion in web and software development.</p>
             <p>Since 2023, I have dived deep into the world of development, mastering HTML, JavaScript, Node.js, React, Python, and more. I have built several personal projects, including a Fullstack app to track workout plans. You can find this one and many others in the next section of this website.</p>
