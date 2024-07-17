@@ -186,6 +186,13 @@ textarea {
     text-align: center;
   }
 
+  .App {
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
   .About, .Projects, .Skills, .Contact {
     flex-direction: column;
     margin: 20px 0;
@@ -202,7 +209,7 @@ textarea {
   }
 
   .title {
-    margin: -10px 5px 5px 5px;
+    margin: 0 10px;
   }
 
   .project-info {
