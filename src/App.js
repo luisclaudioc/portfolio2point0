@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   const handleComponentClick = (title) => {
-    if (!isMobile) {
+    if (isMobile) {
       setActiveComponent(prev => prev === title ? '' : title);
     }
   };
@@ -32,13 +32,13 @@ function App() {
   return (
     <div className="App">
       <Title title="About" text="i'm luis costantin" onClick={() => handleComponentClick('About')} />
-      <About isActive={activeComponent === 'About' || isMobile} />
+      <About isActive={activeComponent === 'About'} />
       <Title title="Projects" text="junior developer" onClick={() => handleComponentClick('Projects')} />
-      <Projects isActive={activeComponent === 'Projects' || isMobile} />
+      <Projects isActive={activeComponent === 'Projects'} />
       <Title title="Skills" text="in constant learning" onClick={() => handleComponentClick('Skills')} />
-      <Skills isActive={activeComponent === 'Skills' || isMobile} />
+      <Skills isActive={activeComponent === 'Skills'} />
       <Title title="Contact" text="available to connect" onClick={() => handleComponentClick('Contact')}/>
-      <Contact isActive={activeComponent === 'Contact' || isMobile} />
+      <Contact isActive={activeComponent === 'Contact'} />
     </div>
   );
 }

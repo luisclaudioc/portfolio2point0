@@ -186,7 +186,7 @@ textarea {
     text-align: center;
   }
 
-  .About, .Projects, .Skills, .Contact {
+  .About, .Projects, .Project, .Skills, .Contact {
     flex-direction: column;
     margin: 20px 0;
     padding: 15px;
