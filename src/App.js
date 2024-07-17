@@ -12,6 +12,7 @@ function App() {
 
   const handleComponentClick = (title) => {
     setActiveComponent(prev => prev === title ? '' : title);
+    window.scrollTo(0,0);
   };
 
   return (
