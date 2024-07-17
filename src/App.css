@@ -186,10 +186,15 @@ textarea {
     text-align: center;
   }
 
-  .About, .Projects, .Project, .Skills, .Contact {
+  .About, .Projects, .Skills, .Contact {
     flex-direction: column;
     margin: 20px 0;
     padding: 15px;
+  }
+
+  .Project {
+    flex-direction: column;
+    margin: 20px 0;
   }
 
   .About > div {
@@ -197,7 +202,7 @@ textarea {
   }
 
   .title {
-    margin: 5px;
+    margin: -10px 5px 5px 5px;
   }
 
   .project-info {
@@ -207,6 +212,7 @@ textarea {
   li {
     margin: 10px;
   }
+
 }
 /*
 @media (max-width: 768px) {

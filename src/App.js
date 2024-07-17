@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { Title } from './components/Titles/Title';
 import About from './components/About/About';
@@ -9,24 +9,9 @@ import Contact from './components/Contact/Contact';
 function App() {
 
   const [activeComponent, setActiveComponent] = useState('');
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
   const handleComponentClick = (title) => {
-    if (isMobile) {
-      setActiveComponent(prev => prev === title ? '' : title);
-    }
+    setActiveComponent(prev => prev === title ? '' : title);
   };
 
   return (
