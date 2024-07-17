@@ -67,7 +67,8 @@ img {
 
 .About > img {
   border: solid 4px #8acd01;
-  max-width: 420px;
+  width: 420px;
+  max-width: 90%;
 }
 
 .About > div > p {
@@ -77,6 +78,7 @@ img {
 
 .icons {
   padding: 20px;
+  text-align: center;
 }
 
 .icons > * {
@@ -190,6 +192,9 @@ textarea {
     margin: 0;
   }
 
+  .About, .Projects, .Skills, .Contact {
+    padding: 5px;
+  }
 }
 /*
 @media (max-width: 768px) {
