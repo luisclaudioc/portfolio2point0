@@ -132,6 +132,7 @@ textarea {
   margin: 3px;
   padding: 5px;
   font-size: 15px;
+  font-weight: 300;
   border: solid 0.5px #1a1a1a;
   border-radius: 5px;
   background-color:  #dcdcdc;
@@ -185,9 +186,10 @@ textarea {
     text-align: center;
   }
 
-  .About, .Project, .Skills {
+  .About, .Project, .Skills, .Contact {
     flex-direction: column;
     margin: 20px 0;
+    padding: 15px;
   }
 
   .About > div {
@@ -198,8 +200,12 @@ textarea {
     margin: 5px;
   }
 
-  .About, .Projects, .Skills, .Contact {
-    padding: 15px;
+  .project-info {
+    margin-left: 0;
+  }
+
+  li {
+    margin: 10px;
   }
 }
 /*
