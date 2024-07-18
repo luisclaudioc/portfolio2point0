@@ -35,7 +35,7 @@ span {
 }
 
 .title {
-  background-color: #f5f5f5;
+  background-color: transparent;
   margin: -1px 40px 5px 40px;
   height: 25vh; 
   display: flex; 
@@ -136,7 +136,7 @@ textarea {
   margin: 3px;
   padding: 5px;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   border: solid 0.5px #1a1a1a;
   border-radius: 5px;
   background-color:  #dcdcdc;
