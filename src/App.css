@@ -56,7 +56,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5px -1px;
+  margin: 7px -1px;
   border: solid 0.5px #1a1a1a;
   padding: 30px 80px;
 }
@@ -89,7 +89,7 @@ img {
 .Contact, .Projects {
   display: flex;
   flex-direction: column;
-  margin: 5px -1px;
+  margin: 7px -1px;
   border: solid 0.5px #1a1a1a;
   padding: 30px 80px;
 }
