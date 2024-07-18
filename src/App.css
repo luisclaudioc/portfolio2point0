@@ -23,6 +23,10 @@ img {
   max-width: 90%;
 }
 
+span { 
+  background-color: transparent;
+}
+
 .App {
   height: 100vh;
   width: 100vw;
