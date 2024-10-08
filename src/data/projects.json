@@ -1,5 +1,14 @@
 [
     {
+        "id": 11, 
+        "name": "Directory Syncroniser",
+        "description": "This Folder Synchronization tool automates the process of keeping two directories in sync, ensuring that files in the destination folder are always up-to-date with changes in the source folder. Developed using Python and Tkinter, this application allows users to select source and destination folders, set sync intervals, and receive detailed logs of file updates. The project emphasizes ease of use with its dialog boxes for folder selection and automatic logging, making file management more efficient and user-friendly.",
+        "technologies": ["Python", "Tkinter"],
+        "live-link": "",
+        "github-link": "https://github.com/luisclaudioc/directory-sync",
+        "img": "/images/directory-sync.png"
+    },
+    {
         "id": 10, 
         "name": "Day Tasking: React and Redux Task Manager",
         "description": "Day Tasking is a project I created as part of the Codecademy curriculum to practice my skills in React and Redux. This application allows users to manage their daily tasks with an appealing layout. It integrates with third-party APIs to provide users with beautiful pictures, inspirational quotes, and the current weather, enhancing the overall user experience.",
