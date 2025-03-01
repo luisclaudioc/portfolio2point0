@@ -1,5 +1,23 @@
 [
     {
+        "id": 13, 
+        "name": "Costantin Blog",
+        "description": "This Blog Application, built with Next.js (Pages Router), TypeScript, and Tailwind CSS, dynamically fetches and displays blog posts with search and filtering features. It follows a component-based architecture for reusability and scalability, ensuring a responsive and modern UI with dark mode support.",
+        "technologies": ["Next.js", "TypeScript", "CSS Tailwind"],
+        "live-link": "https://luis-costantin-blog.vercel.app",
+        "github-link": "https://github.com/luisclaudioc/luis-costantin-blog",
+        "img": "/images/costantin-blog.png"
+    },
+    {
+        "id": 12, 
+        "name": "Next.js Codecademy",
+        "description": "This project was created as part of my development practice to enhance my skills in Next.js and CSS Modules. It is a dynamic web application that allows users to explore and interact with blog posts efficiently. The application fetches data from APIs and presents it in a clean, responsive layout, ensuring a seamless user experience.",
+        "technologies": ["Next.js", "TypeScript", "CSS"],
+        "live-link": "",
+        "github-link": "https://github.com/luisclaudioc/codecademy-nextjs",
+        "img": "/images/nextjs.png"
+    },
+    {
         "id": 11, 
         "name": "Directory Syncroniser",
         "description": "This Folder Synchronization tool automates the process of keeping two directories in sync, ensuring that files in the destination folder are always up-to-date with changes in the source folder. Developed using Python and Tkinter, this application allows users to select source and destination folders, set sync intervals, and receive detailed logs of file updates. The project emphasizes ease of use with its dialog boxes for folder selection and automatic logging, making file management more efficient and user-friendly.",
